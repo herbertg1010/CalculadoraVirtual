@@ -55,7 +55,6 @@ var res = n1 ** n2
 resultado.innerHTML = `${res}`
 }
 
-function mostrarresto(){
-    
-}
+
+
 

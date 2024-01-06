@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    height: 120vh;
     box-sizing: border-box;
     background-color: #887cf3;
     font-family: sans-serif;
@@ -16,10 +17,11 @@ div.container{
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 73%;
+    width: 55%;
     height: 100vh;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 40px;
     box-shadow: 4px 0px 5px rgba(0, 0, 0, 0.34);
 }
 
@@ -53,7 +55,7 @@ div.entrada > input{
     outline: none;
     border: 2px solid rgba(0, 0, 0, 0.636);
     padding: 8px;
-    width: 50%;
+    width: 60%;
     border-radius: 7px;
     text-align: center;
     font-size: 20px;
@@ -100,6 +102,37 @@ div.resultados{
     font-weight: 800;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.311);
 }
+
+
+
+@media screen and (max-width: 500px){
+    div.resultados{
+        border-radius: 5px;
+        padding: 5px;
+        width: 60%;
+        font-size: 18px;
+    }
+    div.btn > button{
+        width: 80%;
+        padding: 7px;
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 21px;
+    }
+    .container > h2{
+        font-size: 18px;
+    }
+
+    div.entrada > label{
+        font-size: 15px;
+    }
+
+
+    
+}
+
 
 
 
