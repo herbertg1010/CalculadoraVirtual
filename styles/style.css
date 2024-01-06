@@ -45,7 +45,7 @@ div.entrada > label{
     font-size: 1.2rem;
 }
 
-div.entrada >input::placeholder{
+div.entrada > input::placeholder{
     font-size: 17px;
     text-align: center;
     font-weight: 600;
@@ -124,6 +124,21 @@ div.resultados{
     div.entrada > label{
         font-size: 15px;
     }
+
+    div.entrada > input {
+        width: 50%;
+        padding: 7px;
+        font-size: 14px;
+    }
+
+
+    div.entrada > input::placeholder{
+       font-size: 11px;
+      
+        
+    }
+
+
 
 
 
